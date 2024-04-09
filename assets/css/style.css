@@ -1,0 +1,78 @@
+body{
+    background: rgb(99, 99, 99);
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.card{
+    width: 850px;
+    height: 550px;
+    margin: 15px;
+    padding: 15px;
+    background: #d3d3d3;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.pic img{
+    width: 185px;
+    height: 185px;
+    border-radius: 95px;
+}
+
+
+.card_left {
+    width: 60%;
+    height: 91%;
+    margin: 10px;
+    padding: 25px 23px 0px 25px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px 4px  #a39e9e;
+}
+
+.profile.name {
+    font-family: sans-serif;
+    color: #4a4a4a;
+}
+
+.profile.name span{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #4a4a4a;
+}
+
+.profile.occupation span{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+.contact.info {
+    line-height: 1.4em;
+}
+
+.card_righht{
+    width: 100%;
+    height: 91%;
+    padding: 25px;
+    position: relative;
+    top: 25%;
+}
+
+.card_righht strong{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card_righht p{
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    color: #585858;
+}
